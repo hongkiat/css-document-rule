@@ -1,0 +1,14 @@
+body {
+	background-color: #000;
+}
+.demo-wrapper {
+	width: 300px;
+	margin: 80px auto;
+}
+
+@-moz-document url-prefix ) {
+	.demo-wrapper {
+		background-color: red;
+		color: #fff;
+	}
+}
